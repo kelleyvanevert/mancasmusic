@@ -27,15 +27,15 @@ export default function Home() {
 
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center">
-      <div className="text-center text-lg text-black text-opacity-50">
+      <div className="text-center xl:text-lg text-black text-opacity-50">
         What's Manca playing, you ask?
       </div>
       {data ? (
         <div>
-          <div className="text-center mt-5 mb-2 text-6xl font-extrabold text-[#7262f1]">
+          <div className="text-center mt-5 mb-2 text-4xl xl:text-6xl font-extrabold text-[#7262f1]">
             <PlayingIcon /> {data.track.name}
           </div>
-          <div className="text-center text-2xl font-semibold text-black text-opacity-70">
+          <div className="text-center text-lg xl:text-2xl font-semibold text-black text-opacity-70">
             {data.track.artist.name}
           </div>
         </div>
