@@ -1,0 +1,33 @@
+.a {
+  animation: PlayingIcon 0.8s ease infinite;
+  animation-delay: -600ms;
+}
+
+.b {
+  animation: PlayingIcon 0.8s ease infinite;
+  animation-delay: -200ms;
+}
+
+.c {
+  animation: PlayingIcon 0.8s ease infinite;
+  animation-delay: -400ms;
+}
+
+.d {
+  animation: PlayingIcon 0.8s ease infinite;
+}
+
+@keyframes PlayingIcon {
+  0% {
+    height: 4px;
+  }
+  33% {
+    height: 20px;
+  }
+  66% {
+    height: 36px;
+  }
+  100% {
+    height: 4px;
+  }
+}
